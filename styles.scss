@@ -369,7 +369,6 @@ $logo:#DFCAA4;
 }
 
 .contact-block {
-    padding: 50px 20px;
   
     &--header {
         display: flex;
@@ -474,6 +473,13 @@ $logo:#DFCAA4;
     &--grid{
         display: grid;
         grid-template-columns: repeat(5, 1fr);
+        & h1{
+            color: $logo;
+            font-family: "Xanh Mono";
+        }
+        & ul{
+            color: $whiteH1;
+        }
     }
     &--content{
         position: relative;
